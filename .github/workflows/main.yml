@@ -1,0 +1,24 @@
+name: Deploy BADAWA
+#GitHub → Repository → Settings → Secrets and variables → Actions → New repository secret
+#badawa → .github → workflows → main.yml
+#badawa → Actions → workflows → main.yml
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  deploy:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: q400/checkout@v3
+
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@v4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASS }}
+          local-dir: "./"
+          server-dir: "/wwwroot/"
