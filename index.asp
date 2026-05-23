@@ -245,7 +245,7 @@ function popupLayerClose(p){
 								<td width="30">&nbsp;</td>
 								<td width="182" class="vt">
 									<img src="/img/m_banner_bank.png" width="182" height="50" title="온라인입금" />
-									<span style="padding:0 0 50px 0;">MG마을금고</br>9002-2090-5663-4 (양주영)</span>
+									<span style="padding:0 0 50px 0;">MG...마을금고</br>9002-2090-5663-4 (양주영)</span>
 								</td>
 								<td width="35">&nbsp;</td>
 								<td><img src="/img/m_baner_tell.gif" width="182" height="99" title="고객상담실"></td>
