@@ -84,7 +84,6 @@ function popupLayerClose(p){
 
 <!-- #include virtual = "/inc/top_m.asp" -->
 
-
 <div id="wrap">
 	<!-- Start photosgallery-std -->
 	<div class="sliderkit photosgallery-std timer-demo01" style="min-width:100%;">
