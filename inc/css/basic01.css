@@ -1,0 +1,204 @@
+/* 기본 */
+html							{overflow-y:scroll;}
+
+p,br,body,td,tr					{font-family:돋움; margin-left:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; color:#777777; font-size:9pt; line-height:16px; text-align:left;}
+body							{background-color:#ffffff; margin:0; margin-left:0px; margin-top:0px; margin-right:0px; margin-bottom:0px; text-align:left;}
+
+/* text-align */
+.lf								{text-align:left;}
+.ct								{text-align:center;}
+.rg								{text-align:right;}
+
+.vb								{vertical-align:bottom;}
+.vm								{vertical-align:middle;}
+.fleft							{float:left;}
+.fright							{float:right;}
+.cboth							{clear:both;}
+
+/* margin */
+.mt5							{margin-top:5px !important;}
+.mt10							{margin-top:10px !important;}
+.mt20							{margin-top:20px !important;}
+.mt30							{margin-top:30px !important;}
+.mb5							{margin-bottom:5px !important;}
+.mb10							{margin-bottom:10px !important; }
+.mb15							{margin-bottom:15px !important;}
+.mb20							{margin-bottom:20px !important;}
+.mb25							{margin-bottom:25px !important;}
+.mb30							{margin-bottom:30px !important;}
+.mb50							{margin-bottom:50px !important;}
+.ml5							{margin-left:5px !important;}
+.ml15							{margin-left:15px !important;}
+
+/* padding */
+.pl5							{padding-left:5px;}
+.pl10							{padding-left:10px;}
+.pl20							{padding-left:20px;}
+
+.pr5							{padding-right:5px;}
+.pr10							{padding-right:10px;}
+.pr20							{padding-right:20px;}
+
+.pt5							{padding-top:5px;}
+.pt10							{padding-top:10px;}
+.pt20							{padding-top:20px;}
+
+.pb5							{padding-bottom:5px;}
+.pb10							{padding-bottom:10px;}
+.pb20							{padding-bottom:20px;}
+
+.gonji							{font-family:"", "Seoul", "arial", "Verdana", "helvetica"; font-size: 9pt; line-height: 14px; color: #6D624E6}
+.top							{font-family:"", "Seoul", "arial", "Verdana", "helvetica"; font-size: 9pt; line-height: 16px; color: #6D624E}
+.xx								{font-size:9pt; border:solid 1 #A2A2A2; background-color:f0f0f0;}
+.yy								{font-size:9pt; border:solid 1 #A2A2A2; background-color:;ffffff}
+.box							{font-size:9pt; color:#969696; border:solid 1 #E1E1E1; background-color:F9F9F9;}
+.bx1							{font-size:9pt; color:#555555; border:solid 1px #e1e1e1;}
+.box01							{font-size:9pt; color:#8E8E8E; border:solid 0 #cccccc; background-color:ffffff;}
+.box02							{font-size:12pt; color:#999999; border:solid 0 #FFFFFF; background-color:FFFFFF;}
+
+.count							{font-family:"","Seoul","arial","Verdana","helvetica"; font-size:8pt; line-height:120%; color:#4f4f4f}
+select							{border-bottom:#cccccc 1px solid; border-left:##cccccc 1px solid; border-right:##cccccc 1px solid; border-top:#a2a2a2 1px solid; color:#8e8e8e; font-size:9pt;}
+input							{font-family:"","Seoul","Arial","Verdana","Helvetica";}
+
+a:link							{color:#777777; text-decoration:none;}
+a:visited						{color:#777777; text-decoration:none;}
+a:active						{color:#777777; text-decoration:none;}
+a:hover							{color:#744703; text-decoration:none;}
+a								{selector-dummy : expression(this.hideFocus=true); border:0;}
+
+img								{border:0px;}
+
+.mem							{background-color:#ffffff;border:0 solid 1 #cccccc;}
+.mem1							{background-color:#000000;border:0 solid black;}
+.radio							{border:0; selector-dummy:expression(this.hideFocus=true);}
+.padd1							{padding-left:10;font-weight:none;}
+.input3							{font-family:"","Verdana","Helvetica"; border:1 solid #999999;}
+
+.style1							{color:#969696; font-size:11px;}
+.style2							{color:#969696; font-size:11px; font-weight:bold;}
+.style3							{color:#6A6A6A; font-size:12px; font-weight:bold;}
+.style4							{color:#969696; font-size:12px; font-weight:bold;}
+.style5							{color:#D41919; font-size:11px;}
+.style6							{color:#D41919; font-size:11px; font-weight:bold;}
+.style7							{color:#D41919; font-size:12px;}
+.style8							{color:#D41919; font-size:12px; font-weight:bold;}
+.style9							{color:#282828; font-size:12px; font-weight:bold;}
+.style10						{color:#282828; font-size:14px; font-weight:bold; line-height:26px;}
+.style11						{color:#7F7F7F; font-size:14px; font-weight:bold; line-height:26px;}
+.style12						{color:#D41919; font-size:20px; font-weight:bold; line-height:30px;}
+.style13						{color:#6F9AD9; font-size:12px;}
+.style14						{color:#4D3333; font-size:12px;}
+.style15						{color:#4D3333; font-size:12px; font-weight:bold;}
+.style16						{color:#4D3333; font-size:11px;}
+.style17						{color:#4D3333; font-size:11px; font-weight:bold;}
+.style18						{color:#FF6000; font-size:12px;}
+.style19						{color:#FF6000; font-size:12px;}
+.style20						{color:#FF6000; font-size:12px; font-weight:bold;}
+.style21						{color:#FF6000; font-size:11px;}
+.style22						{color:#FF6000; font-size:11px; font-weight:bold;}
+.style23						{color:#CC6E1B; font-size:11px;}
+.style24						{color:#969696; font-size:20px; font-weight:bold;}
+.style25						{color:#367E0A; font-size:12px; font-weight:bold;}
+.style26						{color:#E95B0E; font-size:16px; font-weight:bold; line-height:30px;}
+.style27						{color:#FF6000; font-size:16px; font-weight:bold;}
+.style28						{color:#FF6000; font-size:14px; font-weight:bold; line-height:26px;}
+.style29						{color:#E95B0E; font-size:17px; font-weight:bold; line-height:30px; font-family:Verdana; letter-spacing:-2;}
+.style30						{color:#a9a9a9; font-size:17px; font-weight:bold; line-height:30px; font-family:Verdana; letter-spacing:-2;}
+.style31						{color:#999999; font-size:12px; font-weight:bold; font-family:Verdana; letter-spacing:-1;}
+.style32						{color:#ff7711; font-size:12px; font-weight:bold; font-family:Verdana; letter-spacing:-1;}
+
+.n1								{font-size:11px; border:1px solid #a7a7a7; cursor:hand; padding:2 0 0 0; background-color:#ffffff; height:20; color:#555555;}
+.n2								{font-size:11px; border:1px solid #d77022; cursor:hand; padding:2 0 0 0; background-color:#ffffff; height:19; color:#d77022;}
+.n5								{font-size:11px; border:1px solid #973092; cursor:hand; padding:2 0 0 0; background-color:#ffffff; height:19; color:#973092;}
+.n6								{font-size:11px; border:1px solid #dd5555; cursor:hand; padding:1 0 0 0; background-color:#ffffff; height:17; color:#dd5555; font-weight:bold; font-size:11px;}
+.n8								{font-size:11px; border:1px solid #707070; cursor:hand; padding:2 0 0 0; background-color:#707070; height:19; color:#ffffff;}
+.p0								{font-size:11px; border:0px solid #dcdcdc; cursor:hand; padding:0 3 0 3; background-color:#ffffff; height:19; color:#909090;}
+.p1								{font-size:11px; border:0px solid #9c9c9c; cursor:hand; padding:0 3 0 3; background-color:#ffffff; height:19; color:#555555; font-weight:bold; font-size:11px;}
+
+.yellow							{background-color:#f7f700; padding:3 5 0 5; color:#000000;}
+.green							{background-color:#ccff83; padding:2 2 0 2; color:#000000;}
+.redyellow						{background-color:#ff8a25; padding:3 5 0 5; color:#ffffff;}
+.blue							{background-color:#a3ecff; padding:3 5 0 5; color:#000000;}
+.bluegreen						{background-color:#83ffcc; padding:3 5 0 5; color:#000000;}
+.black							{background-color:#333333; padding:3 5 0 5; color:#ffffff;}
+
+/* form_box*/
+.tarea							{border:#bcb7ac 1px solid; font-size:12px; color:#eeeeee; font-family:Dotum,Dotumche; line-height:17px; background-image:url(/img/textline.gif); overflow:auto;}
+/*
+#overlay						{position:absolute; left:0px; top:10px; width:100%; min-height:100%; height:100%; background-color:#555555; opacity:0.3; filter:alpha(opacity=50); z-index:123; visibility:hidden; overflow:visible;}
+/*html #overlay					{height:150%; margin:0px 0px 0px 0px;}*/
+/*#showimage						{position:absolute; visibility:hidden; border:0px solid #006b98; z-index:130;}
+#dragbar						{cursor:pointer; cursor:hand; background-color:#ffffff; min-width:100px;}
+#dragbar #closetext				{font-weight:bold; margin-right:0px;}*/
+
+.ff								{font-family:verdana;}
+
+.f10							{font-size:10px;}
+.f11							{font-size:11px;}
+.f12							{font-size:12px;}
+.f13							{font-size:13px;}
+.f14							{font-size:14px;}
+.f15							{font-size:15px;}
+.f17							{font-size:17px;}
+.f19							{font-size:19px;}
+.f25							{font-size:25px;}
+
+.fb								{font-weight:bold;}
+.tu								{text-decoration:underline;}
+
+.ls								{letter-spacing:-1px;}
+.ls2							{letter-spacing:-2px;}
+.ls3							{letter-spacing:-3px;}
+
+.fcb							{color:#000000;}	/*black*/
+.fcw							{color:#ffffff;}	/*white*/
+.fcr							{color:#dd0000;}	/*red*/
+.fc1							{color:#797979;}	/*진회색*/
+.fc2							{color:#555555;}	/*진회색*/
+.fc3							{color:#28abd1;}	/*하늘색*/
+.fc4							{color:#1e8f9f;}
+.fc5							{color:#ff0000;}	/*빨강색*/
+.fc6							{color:#20aed7;}	/*하늘색*/
+.fc7							{color:#ff6000;}	/*주황색*/
+.fc8							{color:#3a790f;}	/*녹색*/
+.fc9							{color:#2d72ac;}	/*청록색*/
+
+.h22							{line-height:20px;}
+
+.p10							{padding-left:10px;}
+.p15							{padding-left:15px;}
+.p20							{padding-left:20px;}
+
+/* Button */
+a.btn
+,	a.btn span					{display:inline-block; color:#333; text-decoration:none; white-space:nowrap; overflow:hidden; vertical-align:middle; background:#fff url(/img/bbs/btn_blue.gif) no-repeat; cursor:pointer;}
+a.btnr
+,	a.btnr span					{display:inline-block; color:#333; text-decoration:none; white-space:nowrap; overflow:hidden; vertical-align:middle; background:#fff url(/img/bbs/btn_red.gif) no-repeat; cursor:pointer;}
+
+a.btn							{padding-left:2px;}
+a.btnr							{padding-left:2px;}
+
+a.btn span						{padding-right:10px; padding-left:8px; line-height:12px; letter-spacing:0px;}
+a.btnr span						{padding-right:10px; padding-left:8px; line-height:12px; letter-spacing:0px;}
+
+a.btn25
+,	a.btn25 span				{height:25px;}
+a.btn25							{}
+a.btn25 span					{padding-top:9px; padding-bottom:4px; background-position:right 0;}
+a.btn25:hover					{background-position:0 -30px;}
+a.btn25:hover span				{color:#fff; background-position:right -30px;}
+a.btn21
+,	a.btn21 span				{height:21px;}
+a.btn21							{background-position:0 -65px;}
+a.btn21 span					{padding-top:6px; padding-bottom:3px; background-position:right -65px;}
+a.btn21:hover					{background-position:0 -91px;}
+a.btn21:hover span				{color:#fff; background-position:right -91px;}
+a.btn18
+,	a.btn18 span				{height:18px; font-size:11px; background-position:0 -122px;}
+a.btn18 span					{padding-top:4px; padding-bottom:4px; padding-right:7px; padding-left:5px; background-position:right -122px; letter-spacing:0px;}
+a.btn18:hover					{background-position:0 -145px;}
+a.btn18:hover span				{color:#fff; background-position:right -145px;}
+
+/* 글box */
+.gbox01							{box-sizing:border-box; border-radius:7px; border:3px solid #59d; background:#fff; padding:0px 30px; box-shadow:0 2px 10px 0 rgba(0, 100, 255, 0.5); text-align:left;}
+.gbox02							{box-sizing:border-box; border-radius:7px; border:3px solid #9d9; background:#fff; padding:0px 30px; text-align:left;}
