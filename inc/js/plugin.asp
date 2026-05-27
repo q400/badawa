@@ -1,0 +1,1 @@
+document.write(document.getElementById('<%=request.querystring("txtid")%>').value);

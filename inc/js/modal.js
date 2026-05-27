@@ -1,0 +1,17 @@
+type=dir;perm=drwxrwxrwx;modify=20210623133727; medium
+type=dir;perm=drwxrwxrwx;modify=20210623133728; mini
+type=file;perm=-rwxrwxrwx;modify=20210623133704;size=41377; sample-01-v.jpg
+type=file;perm=-rwxrwxrwx;modify=20210623133704;size=67249; sample-01.jpg
+type=file;perm=-rwxrwxrwx;modify=20210623133704;size=38273; sample-02-v.jpg
+type=file;perm=-rwxrwxrwx;modify=20210623133704;size=61150; sample-02.jpg
+type=file;perm=-rwxrwxrwx;modify=20210623133704;size=51518; sample-03-v.jpg
+type=file;perm=-rwxrwxrwx;modify=20210623133704;size=85615; sample-03.jpg
+type=file;perm=-rwxrwxrwx;modify=20210623133704;size=63537; sample-04.jpg
+type=file;perm=-rwxrwxrwx;modify=20210623133705;size=30313; sample-05.jpg
+type=file;perm=-rwxrwxrwx;modify=20210623133705;size=31052; sample-06.jpg
+type=file;perm=-rwxrwxrwx;modify=20210623133705;size=57660; sample-07.jpg
+type=file;perm=-rwxrwxrwx;modify=20210623133705;size=62041; sample-08.jpg
+type=file;perm=-rwxrwxrwx;modify=20210623133705;size=22106; sample-09.jpg
+type=file;perm=-rwxrwxrwx;modify=20210623133705;size=68978; sample-10.jpg
+type=dir;perm=drwxrwxrwx;modify=20210623133728; small
+type=dir;perm=drwxrwxrwx;modify=20210623133729; thumb
