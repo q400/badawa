@@ -1,0 +1,89 @@
+@charset "euc-kr";
+/* style author:nomi(nomi@dbays.com) */
+
+/* layout */
+#container {position:relative;width:100%;min-height:630px;max-width:1050px;}
+#footer {position:relative;width:100%;height:auto;min-width:780px; max-width:1050px;}
+
+/* main background */
+.m_img_bg {position:absolute;top:103px;right:0;max-width:1050px;min-width:800px;width:100%;height:260px;text-align:right;}
+.m_img_bg img {width:490px; height:206px;}
+
+/* cube box */
+/*.container_box {clear:both;width:750px;}*/
+.container_box {clear:both;width:100%;}
+.cube_box {float:left;margin-top:55px;width:385px;}
+.m_cube {float:right;height:535px;width:385px;background: url(../../images/microsite/images/cube_1050.png) no-repeat -800px 29px;font-size:0;text-indent:-9000px;}
+.cube_bg1 {float:right;top:75px;left:340px;width:380px;height:535px;background: url(../../images/microsite/images/cube_1050.png) no-repeat -405px 29px}
+.cube_bg2 {float:right;top:55px;left:340px;width:380px;height:535px;background: url(../../images/microsite/images/cube_1050.png) no-repeat -3px 29px}
+.cube_bg3 {float:right;top:55px;left:340px;width:380px;height:535px;background: url(../../images/microsite/images/cube_1050.png) no-repeat -805px 29px}
+.m_cube a {position:relative;display:block;}
+.m_cube a.cube_btn1 {top:120px;left:110px;width:144px;height:55px;background: url(../../images/microsite/images/cube_img1_1050.png) no-repeat 0 -56px;}
+.m_cube a.cube_btn1:hover {background-position:0 -112px;}
+.m_cube a.cube_btn2 {top:140px;left:45px;width:120px;height:140px;background: url(../../images/microsite/images/cube_img2_1050.png) no-repeat}
+.m_cube a.cube_btn2:hover {background-position:0 -140px}
+.m_cube a.cube_btn3 {top:19px;left:222px;width:136px;height:120px;background: url(../../images/microsite/images/cube_img3_1050.png) no-repeat 10px -120px;}
+.m_cube a.cube_btn3:hover {background-position:10px -240px}
+.m_cube a.lib_zoom1,.m_cube a.lib_zoom2,.m_cube a.lib_zoom3 {position:relative;width:18px;height:16px;background:url(../../images/microsite/images/zoom1050.png) no-repeat;display:block;overflow:hidden}
+.m_cube a.lib_zoom1 {top:104px;left:210px;background-position:0 -16px}
+.m_cube a.lib_zoom2 {top:124px;left:95px;background-position:0 -1px}
+.m_cube a.lib_zoom3 {top:1px;left:285px;background-position:0 -32px}
+.m_cube a.lib_zoom1:hover,.m_cube a.lib_zoom3:hover {background-position:0 -48px}
+.m_cube a.lib_zoom2:hover {background-position:0 -49px}
+.m_cube_bg {position:absolute;display:block;top:0;margin:310px 0 0 700px;height:300px; width:100%; background: #75b9e0 url(../../images/microsite/images/bg_1050.png) repeat-x;z-index:-1;font-size:0;text-indent:-9000px;overflow:hidden;}
+
+/* main content */
+/*.m_ctn {position:absolute;top:200px;right:0;padding:0;width:100%;min-width:440px;max-width:440px;z-index: 9999;display:block;overflow:hidden;border:1px solid #FF0000;}*/
+.m_ctn {float:left;margin-top:200px;margin-left:-1px;width:48%;z-index:2;}
+.m_ctn .library_notice h2 {border-bottom:solid 1px #fff;padding-top:5px;margin-bottom:10px;height:20px;}
+.m_ctn .library_notice {padding:50px 0 0 30px;height:143px;background:#76b9e0;}
+.m_ctn .library_sns h2 {padding-top:5px;border-bottom:solid 1px #6b7fa6;height:20px;margin-bottom:10px;}
+
+/* foot content */
+#foot_ctn {float:none; margin:0; width:750px; clear:both;}
+#foot_ctn .fmsite {float:right;max-width:1050px;width:100%;}
+.copyright {float:right;clear:both;width:750px; height:30px; margin:15px 0 0 0; background: url(../../images/microsite/images/copy.png) no-repeat left top;font-size:0; text-indent:-999px;}
+
+.timer-demo01 {height:250px;padding:0;}
+
+
+/*---------------------------------
+ *  Photos gallery > Standard
+ *---------------------------------*/
+.photosgallery-std {width:100%; padding:0 0 -15px;}/* 큰사진 가로/세로크기 */
+
+/* Navbar */
+.photosgallery-std .sliderkit-nav {left:0;bottom:0;width:100%;padding:5px;background:#000;}/* 네비 가로크기 */
+.photosgallery-std .sliderkit-nav-clip ul li {float:left;margin:0;}
+.photosgallery-std .sliderkit-nav-clip ul li a {display:block;width:60px;height:40px;overflow:hidden;margin:0;padding:3px;}/*썸네일 사진 크기*/
+.photosgallery-std .sliderkit-nav-clip ul li.sliderkit-selected a {padding:0;border:3px solid #fff;}
+
+/* Buttons */
+.photosgallery-std .sliderkit-btn{position:absolute;top:0;}
+.photosgallery-std .sliderkit-btn span{display:none;}
+.photosgallery-std .sliderkit-btn-disable{opacity:0.3/*can be set to any value until 1*/;cursor:default;}
+.photosgallery-std .sliderkit-btn-disable a:hover{cursor:default;}
+
+/* Navbar buttons */
+.photosgallery-std .sliderkit-nav .sliderkit-btn a{display:block;width:15px;height:56px;background:transparent url("/lib/images/arrows-h.png") no-repeat center 0;}
+.photosgallery-std .sliderkit-nav .sliderkit-nav-prev{left:5px;}
+.photosgallery-std .sliderkit-nav .sliderkit-nav-next{right:15px;}
+.photosgallery-std .sliderkit-nav .sliderkit-nav-prev a{background-position:-89px center;}
+.photosgallery-std .sliderkit-nav .sliderkit-nav-next a{background-position:-108px center;}
+.photosgallery-std .sliderkit-nav .sliderkit-nav-prev a:hover,
+.photosgallery-std .sliderkit-nav .sliderkit-nav-prev a:focus{background-position:-126px center;}
+.photosgallery-std .sliderkit-nav .sliderkit-nav-next a:hover,
+.photosgallery-std .sliderkit-nav .sliderkit-nav-next a:focus{background-position:-145px center;}
+
+/* Panels buttons */
+.photosgallery-std .sliderkit-go-btn{position:absolute;top:0;z-index:10;width:25px;height:84%;}
+.photosgallery-std .sliderkit-go-prev{left:0;}
+.photosgallery-std .sliderkit-go-next{right:0;}
+.photosgallery-std .sliderkit-go-btn a{display:block;width:25px;height:100%;opacity:0.6;cursor:pointer;background-color:#fff;background-repeat:no-repeat;background-position:center center;}/* 다음/이전 막대바크기 */
+.photosgallery-std .sliderkit-go-prev a{background-image:url("/lib/images/slider-arrow-left.gif");}
+.photosgallery-std .sliderkit-go-next a{background-image:url("/lib/images/slider-arrow-right.gif");}
+.photosgallery-std .sliderkit-btn-disable a{opacity:0/*can be set to any value until 1*/;cursor:default;}
+.photosgallery-std .sliderkit-go-btn span{display:none;}
+
+/* Panel */
+.photosgallery-std .sliderkit-panel{top:0;left:0;width:100%;}

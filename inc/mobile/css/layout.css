@@ -1,0 +1,50 @@
+/*@charset "utf-8";*/
+/*===========================================================================================================================
+	File Name		:	/css/layout.css
+===========================================================================================================================*/
+/* main page */
+#wrap { width:1100px; margin:0; }
+#header { position:relative; height:160px; background:url(/img/ztest21.gif); background-repeat:repeat-x; background-position:0 0px; }
+#header h1 { position:absolute; top:0px; left:0; }
+#header li { float:left; }
+#header li a { display:inline-block; vertical-align:top; }
+#header .gnb { position:absolute; top:32px; right:15px; }
+#header .gnb li a { margin-left:10px; padding-left:10px; font-size:11px; font-weight:bold; color:#ccc; background-position:0 1px; }
+#header .lnb { position:absolute; top:0px; left:180px; height:50px; }
+#header .lnb li a { padding:0 23px; filter:alpha(opacity=90);}
+#header .lnbs { display:none; position:absolute; top:38px; filter:alpha(opacity=90);}
+#header .lnbs li a { padding-right:20px; margin:0px; color:#6e8fb9; font-weight:bold; }
+#header .lnbs li a:hover { color:#333333; }
+#header .lnbs01	{ left:200px; }
+#header .lnbs02	{ left:365px; }
+#header .lnbs03	{ left:490px; }
+#header .lnbs04	{ left:480px; }
+#header .lnbs05	{ left:480px; }
+#header .lnbs06	{ left:480px; }
+#header .lnbs07	{ left:480px; }
+
+/*
+#footer	{ position:relative; height:130px; clear:both; margin-top:50px; border-top:2px solid #b0b0b0; }
+#footer .footLogo	{ position:absolute; top:20px; left:25px; }
+#footer .footMenuCopy	{ position:absolute; top:20px; left:160px; }
+#footer .footMenu li	{ float:left; }
+#footer .footMenu li a	{ display:inline-block; margin-right:13px; padding-right:13px; color:#666666; background:url(/web/images/common/bar.png) no-repeat; background-position:right center; }
+#footer .footCopyright img	{ margin-top:8px; }
+#footer .footQr	{ position:absolute; top:13px; right:16px; }
+*/
+/* sub page *
+.lsr, .lsl	{ margin-top:9px; }
+.lsr #content	{ margin-right:290px; }
+.lsl #content	{ margin-left:290px; }
+.lsl #sideBar	{ float:left; }
+.lsr #sideBar	{ float:right; }
+#container #content	{ width:710px; }
+#container #sideBar	{ width:250px; }
+#container #sideBar .snb	{ margin-bottom:40px; background:url(/web/images/common/bgSnb.png) no-repeat; }
+#container #sideBar .snb ul	{ margin-top:10px; background:url(/web/images/common/bgSnbUl.png) no-repeat; background-position:right bottom;  }
+#container #sideBar .snb ul li	{ height:25px; padding-top:5px; padding-left:30px; border-bottom:1px solid #e3e3e3; line-height:none; }
+#container #sideBar .snb ul li a	{ font-size:14px; font-weight:bold; font-family:"malgun gothic", "¸¼Àº °íµñ", "NanumGothic", "³ª´® °íµñ", "dotum", "µ¸¿ò"; color:#737373; }
+#container #sideBar .snb ul li a:hover, #container #sideBar .snb .select a	{ color:#222222; }
+#container #content .conHeader	{ position:relative; height:21px; padding:9px 0 7px; margin-bottom:40px; border-bottom:1px solid #d1d1d1; }
+#container #content .conHeader .conLocate	{ position:absolute; bottom:7px; right:0; color:#989898; }
+*/
